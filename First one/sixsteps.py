@@ -29,20 +29,24 @@ def vanga_foo(number: int) -> int:
     return count
 
 
-def num_gen() -> int:
-    """generating an array of random numbers from 1 to 100
+def num_gen() -> np.array:
+    """[summary]
 
     Returns:
-        int: average attempts per case rounded
+        np.array: [description]
     """
-    result = []
     np.random.seed(1)  # set initial point for pseudo randomisation    
+    return np.random.randint(1, 101, size=1000)
+
+
+def get_av_attempt(ar: np.array) -> int:
+    result = []
     
-    for number in np.random.randint(1, 101, size=1000):   
+    for number in ar:    
         result.append(vanga_foo(number))
     
     return round(np.mean(result))
 
 
 if __name__ == '__main__':
-    print(num_gen())
+    print(get_av_attempt(num_gen()))
