@@ -2,4 +2,4 @@
 
 # projects:
 
-[Project 1 - Half Life 3: "Guess what?"](https://github.com/Zelfreg/P1/tree/master/First%20one)
+[Project 1 - "Vanga style"](https://github.com/Zelfreg/P1/tree/master/First_one)
