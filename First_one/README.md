@@ -1,10 +1,10 @@
 # Finding out number
 
 ## Table of contents
-[1. Project description](https://github.com/Zelfreg/P1/tree/master/First_one/README.md#Project-description)  
-[2. Case](https://github.com/Zelfreg/P1/tree/master/First_one/README.md#Case)  
-[3. Data info](https://github.com/Zelfreg/P1/tree/master/First_one/README.md#Data-info)  
-[4. Project stages](https://github.com/Zelfreg/P1/tree/master/First_one/README.md#Project-stages)  
+[1. Project description](https://github.com/Zelfreg/P1/tree/master/First one/README.md#Project-description)  
+[2. Case](https://github.com/Zelfreg/P1/tree/master/First one/README.md#Case)  
+[3. Data info](https://github.com/Zelfreg/P1/tree/master/First-one/README.md#Data-info)  
+[4. Project stages](https://github.com/Zelfreg/P1/tree/master/First one/README.md#Project-stages)  
 [5. Result](https://github.com/Zelfreg/P1/tree/master/First_one/README.md#Result)  
 [6. Conclusion](https://github.com/Zelfreg/P1/tree/master/First_one/README.md#Conclusion)  
 
