@@ -1,28 +1,37 @@
+'''
+lets make a deal: the minimum number allowed 1
+                  the maximum one 100
+'''
 import numpy as np
 
 
-def random_predict(number: int=1) ->int:
+def Vanga_foo(number: int) ->int:
     count = 0
+    lower = 1           # as per deal above
+    upper = 100         # as per deal above
     
     while True:
         count += 1
-        predict = np.random.randint(1, 101)
-        if number == predict:
-            return count
-        
-
-def check(random_predict) ->int:
-    count_list =[]
-    np.random.seed(1)
-    random_array = np.random.randint(1, 100, size=(1000))
+        predict = int((upper + lower) / 2) + 1
+        if predict == number:   # got it!
+            break
+        elif number > predict:
+            lower = predict     # adjusting boundaries
+        else:
+            upper = predict     # adjusting boundaries
     
-    for x in random_array:
-        count_list.append(random_predict(x))
-        
-    mean_attempt = int(np.mean(count_list))
+    suffix_dictionary ={
+        1: 'st',
+        2: 'nd',
+        3: 'rd'
+    }
+    suf = suffix_dictionary.get(count % 10, 'th')   # making result looks nicely
+    return print(f"got {predict} on {count}{suf} attempt")
 
-    return print(mean_attempt)
+
+def num_gen() ->int:
+    '''randomizing number as per dealed boundaries'''
+    return int(np.random.randint(1, 101))
 
 
-if __name__ == '__main__':
-    check(random_predict)
+Vanga_foo(num_gen)
