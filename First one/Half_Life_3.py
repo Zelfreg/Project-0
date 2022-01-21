@@ -37,6 +37,7 @@ def num_gen() -> int:
     """
     result = []
     np.random.seed(1)  # set initial point for pseudo randomisation    
+    
     for number in np.random.randint(1, 101, size=1000):   
         result.append(vanga_foo(number))
     
