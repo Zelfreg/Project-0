@@ -2,4 +2,4 @@
 
 # projects:
 
-[Project 0 - brain dead monkey copy]()
+[Project 0 - brain dead monkey copy](https://github.com/Zelfreg/P1/tree/master/First%20one!)
